@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MobiHelp Challenge: Game Menu</title>
+  <style>
+    body {
+      background-color: grey;
+      text-align:center;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    button {
+      margin: 5px;
+      padding: 15px;
+      border-width: thin;
+      cursor: pointer;
+    }
+    h1 {
+      color: white;
+    }
+    #gameView {
+      width: 800px;
+      height: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      border-style: groove;
+      border-width: medium;
+      background: url('bgImg.jpg');
+    }
+    .playGame {
+      position: relative;
+      top: 320px;
+    }
+    .instructions {
+      position: relative;
+      top : 340px;
+    }
+  </style>
+</head>
+<body>
+  <div id="gameView">
+    <h1>Game Title</h1>
+    <a href="PlayGame.html"><button class="playGame">Play Game</button></a>
+    <br>
+    <a href="Instructions.html"><button class="instructions">Instructions</button></a>
+  </div>
+</body>
+<audio hidden="true" autoplay="true" loop="true">
+  <source src="bgMusic.mp3" type="audio/mp3">
+</audio>
+</html>
