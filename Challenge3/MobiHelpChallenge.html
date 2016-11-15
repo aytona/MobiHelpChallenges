@@ -1,0 +1,30 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MobiHelp Challenge: Game Timer</title>
+    <style>
+        #gameView {
+            text-align: center;
+            width: 800px;
+            height: 600px;
+            border: solid;
+            border-width: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameView">
+        <div class="menu">
+            <h1>Countdown Timer</h1>
+            <button onclick="showTime()">Start Timer</button>
+            <div class="time">02:00</div>
+        </div>
+        <div class="over">
+            <h1>Timer Over!</h1>
+            <button onclick="restart()">Restart</button>
+        </div>
+    </div>
+</body>
+<script src="MobiHelpChallenge.js"></script>
+</html>
